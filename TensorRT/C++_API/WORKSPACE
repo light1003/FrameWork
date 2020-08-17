@@ -1,0 +1,10 @@
+new_local_repository(
+    name = "trt",
+    path = "/home/zz/JinHui/ThirdParty/TensorRT-4.0.1.6",
+    build_file = "trt.BUILD",
+)   
+new_local_repository(
+    name = "opencv",
+    path = "/home/zz/JinHui/ThirdParty/opencv_x86_64",
+    build_file = "opencv.BUILD",
+)

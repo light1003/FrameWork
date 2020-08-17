@@ -1,0 +1,5 @@
+new_local_repository(
+    name = "mysql",
+    path = "",
+    build_file = "mysql.BUILD",
+)
